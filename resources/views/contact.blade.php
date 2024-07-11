@@ -5,6 +5,16 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
+
+                @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                 
                 <div class="card-body">
                     <img class="logo-contact mx-auto d-block" src="css/img/logo2.png" alt="logo">
