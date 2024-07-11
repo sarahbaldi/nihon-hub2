@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.hero-section {
+    background-image: url("img/geisha2.webp");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer-section {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo-navbar {
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
